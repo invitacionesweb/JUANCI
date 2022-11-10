@@ -119,7 +119,7 @@ header .animales {
     font-size: 1.2em;
 }
 main {
-    width: 100%;
+    width: 100VW;
     height: 50vh;
     padding: 0;
     margin: 0;
@@ -240,7 +240,14 @@ footer img {
     header {
         background-image: url(./img/BACKGROUND-SUPERIOR.png);
     }
-
+    main{
+        background-image: url(./img/back1-phone.png);
+        width: 100%;
+    }
+    .segundo {
+        background-image: url(./img/Group.png);
+        width: 100%;
+    }
     .galeria {
         display: grid;
         grid-template-columns:1fr 1fr;
