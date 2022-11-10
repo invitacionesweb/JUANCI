@@ -133,6 +133,7 @@ main {
     justify-content: center;
     flex-direction: column;
     text-align: center;
+
 }
 main p {
     padding: 6px 40px;
@@ -241,9 +242,11 @@ footer img {
     }
     main{
         background-image: url(./img/back1-phone.png);
+        width: 100%;
     }
     .segundo {
         background-image: url(./img/Group.png);
+        width: 100%;
     }
     .galeria {
         display: grid;
