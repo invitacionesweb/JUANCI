@@ -125,7 +125,7 @@ main {
     margin: 0;
     background-image: url(./img/tematica2.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-position: bottom;
     color: var(--color-terciario);
     display: flex;
@@ -156,7 +156,7 @@ main p {
     margin: 0;
     background-image: url(./img/back2big.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-position: bottom;
     color: var(--color-principal);
     background-color:var(--color-secundario);
@@ -240,7 +240,14 @@ footer img {
     header {
         background-image: url(./img/BACKGROUND-SUPERIOR.png);
     }
-  
+    main{
+        background-image: url(./img/back1-phone.png);
+        width: 100%;
+    }
+    .segundo {
+        background-image: url(./img/Group.png);
+        width: 100%;
+    }
     .galeria {
         display: grid;
         grid-template-columns:1fr 1fr;
