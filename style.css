@@ -236,7 +236,7 @@ footer img {
     color: var(--color-secundario);
 }
 
-@media (max-width: 500px) {
+@media (max-width: 900px) {
     header {
         background-image: url(./img/BACKGROUND-SUPERIOR.png);
     }
