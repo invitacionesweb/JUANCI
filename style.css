@@ -240,14 +240,7 @@ footer img {
     header {
         background-image: url(./img/BACKGROUND-SUPERIOR.png);
     }
-    main{
-        background-image: url(./img/back1-phone.png);
-        width: 100%;
-    }
-    .segundo {
-        background-image: url(./img/Group.png);
-        width: 100%;
-    }
+
     .galeria {
         display: grid;
         grid-template-columns:1fr 1fr;
